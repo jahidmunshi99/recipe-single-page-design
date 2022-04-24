@@ -1,0 +1,162 @@
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 65%;
+    }
+    .half-col h1 {
+        font-size: 5.8rem;
+        font-weight: bold;
+        line-height: 7.6rem;
+    }  
+    .about-section .container .about-image{
+        left: 0;
+    }   
+}
+
+@media only screen and (max-width: 980px){
+    section{
+        padding: 5rem 0;
+    }
+
+    .half-col h1 {
+        font-size: 4.6rem;
+        line-height: 6.3rem;
+    }
+
+    .half-col p{
+        font-size: 1.7rem;
+        line-height: 3rem;
+        text-align: left;
+    }
+
+    .contact-section form{
+        width: 100%;
+        margin-top: 2rem;
+        padding: 0.7rem;
+    }
+
+    .contact-section input[type = text],
+    .contact-section textarea{
+        margin-top: 4.8rem;
+    }
+
+    .food-seaction .short-description{
+        margin: 5rem auto;
+        width: 90%;
+        text-align: center;
+        line-height: 3rem;
+        font-size: 1.7rem;
+    }
+
+    .social-meadia-section .row{
+        padding: 5rem 0;
+
+    }
+
+    .contact-section h2{
+        margin-bottom: 6rem;
+        margin-top: 5rem;
+    }
+
+    .food-seaction .span_1_of_4 {
+        width: 49.2%; 
+        height: 59rem;
+        box-sizing: border-box;  
+        padding: 3rem;     
+    }
+
+    .food-seaction .col:nth-child(3){
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .hero-section .container{
+        flex-direction: column;
+    }
+
+    .half-col img{
+        margin-left: 0rem;
+        margin-top: 8rem;
+    }
+
+    .food-seaction .box{
+        padding: 1.8%;
+    }
+    .food-seaction .read-btn{
+        margin-bottom: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .food-seaction .span_1_of_4 {
+        height: 55.5rem;     
+    }
+
+    .about-section .container{
+        flex-direction: column;
+    }
+    
+    .about-section .container .about-image{
+        position: relative;
+        width: 38rem;
+    }
+
+    .about-section h2{
+        text-align: center;
+        margin-top: 7rem;
+    }
+
+    .about-section h2::after{
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .nav-menu{
+        display: none;
+    }
+    html{
+        font-size: 59%;
+    }
+
+    .half-col img{
+        margin-top: 7rem;
+    }
+
+    .food-seaction .span_1_of_4 {
+        width: 100%; 
+        height: 62rem;
+        box-sizing: border-box;  
+        padding: 3rem;     
+    }
+
+    .social-meadia-section .row{
+        background: none; 
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .social-meadia-section .box{
+        margin: 1.5rem 0;
+        background: #40E0D0;
+        padding: 4rem 0;
+        border-radius: 0.5rem;
+        box-shadow: 0rem 0.2rem 2rem rgb(0, 0, 0, 0.450);
+    }
+    .contact-section h2{
+        font-size: 3.8rem;
+        margin: 0;
+    }
+}
+
+    .footer-section{
+        padding: 5rem 0rem;
+    }
+
+    .footer-section h4{
+        font-size: 3rem;
+    }
+}

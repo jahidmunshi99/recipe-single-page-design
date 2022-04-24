@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    font-size: 65.5%;
+    scroll-behavior: smooth;    
+}
+
+body{
+    text-rendering: optimizeLegibility;
+    font-size: 1.6rem;
+}
+
+
+/* Common-Settings */
+section{
+    padding: 8rem 0;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.half-col{
+    flex-basis: 50%;
+}
+
+
+.row{
+    max-width: 88%;
+    margin: 0rem auto;
+}
+
+.box{
+    padding: 1.5%;
+}
+
+h2{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+h2::after{
+    content: '';
+    width: 20rem;
+    height: 0.5rem;
+    background:linear-gradient(45deg, rgba(252, 149, 112, 0.808), tomato);
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.paste{
+    color:  rgb(0, 255, 221);
+}
+
+.orange{
+    color:  #FF6347;
+}
+
+/* Header-Section Start */
+.header-sections{
+    background: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.logo-area{
+    font-size: 2.8rem;
+    color: rgb(0, 255, 221);
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.logo-area span{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+
+.nav-menu ul li{
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.nav-menu ul li:last-child{
+    margin-right: 0;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s all;
+}
+
+.nav-menu ul li:hover a{
+    color: rgb(0, 255, 221);
+}
+
+
+
+/* Hero Section Start */
+
+.half-col h1{
+    font-size: 6rem;
+    line-height: 7.5rem;
+}
+
+.half-col p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    margin-top: 5rem;
+}
+
+.half-col img{
+    margin-left: 8rem;
+    width: 85%;
+    display: block;
+}
+
+.btn{
+    margin-top: 4rem;
+    padding: 1.5rem 3.5rem;
+    font-size: 1.8rem;
+    display: inline-block;
+    border-radius: 10rem;
+    background: #FF6347;
+    box-shadow: 0rem 0.2rem 0.6rem #ff6347;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: 0rem 0.2rem 2rem #ff6347;
+    color: #000;
+}
+
+/* Food-Section-Start */
+.food-seaction {
+    width: 100%;
+}
+
+.food-seaction .short-description{
+    margin: 5rem auto;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.food-seaction .box{
+    background: rgba(226, 223, 223, 0.795);
+    padding: 2rem;
+    border-radius: 0.3rem;
+}
+
+.food-seaction .box img{
+    width: 100%;
+    display: block;
+    position: relative;
+    border-radius: 0.2rem;
+}
+
+.recipe-info{
+    margin-top: 2rem;    
+}
+.recipe-info h3{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.recipe-info p{
+    margin: 1.3rem 0;
+    overflow: hidden;
+    line-height: 2.2rem;
+    font-size: 1.5rem;
+}
+
+.read-btn{
+    margin-top: 1.5rem;
+    display: inline-block;
+    background: #000;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.read-btn:hover{
+    background:#ff6347;
+    box-shadow: 0rem 0.2rem 2rem #ff6347;
+    transition: 0.3rem ease-in-out;
+}
+
+.read-btn a{
+    text-decoration: none;
+    color: #ff6347;
+    transition: 0.3rem ease-in-out;
+}
+
+.read-btn:hover a{
+    color: #fff;
+}
+
+/* About-Section-Start */
+.about-section{
+    background-image: url('/assets/img/banner-1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.about-section h2::after{
+    margin-left: 0;
+}
+
+.about-section .container .about-image{
+    width: 32rem;
+    bottom: 0;
+    position: absolute;
+}
+
+.about-section img{
+    width: 100%;
+    display: block;
+}
+
+.about-section h2{
+    text-align: left;
+}
+
+.about-section .btn{
+    margin-top: 8rem;
+}
+
+
+
+/* social-meadia-Section-Start */
+
+.social-meadia-section .row{
+    background: #40E0D0;
+    text-align: center;
+    padding: 7rem 0;
+    border-radius: 0.8rem;
+    box-shadow: 0rem 0.2rem 2rem rgb(0, 0, 0, 0.450);
+}
+
+.social-meadia-section .box .f_number{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.social-meadia-section .box .social_name{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+/* Contact-Section */
+.contact-section h2::after{
+    display: none;
+}
+.contact-section input[type = text],
+.contact-section textarea{
+    width: 100%;
+    margin-top: 3rem;
+    padding: 1.3rem;
+}
+
+.contact-section form{
+    margin: 0 auto;
+    text-align: center;
+    width: 65%;
+}
+
+/* Footer-Section-Start */
+.footer-section{
+    background: #000;
+    padding: 20rem;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-section h4{
+    font-size: 4rem;
+    letter-spacing: 0.15rem;
+}
+
+.footer-section p{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
