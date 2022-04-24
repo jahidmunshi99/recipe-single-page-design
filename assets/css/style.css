@@ -240,7 +240,7 @@ nav{
 
 /* About-Section-Start */
 .about-section{
-    background-image: url('/assets/css/img/banner-1.jpg');
+    background-image: url('img/banner-1.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
